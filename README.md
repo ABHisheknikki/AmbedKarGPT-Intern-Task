@@ -1,6 +1,15 @@
 # AmbedkarGPT - RAG Q&A System
 
 This is an assignment submission for the AI Intern role. It implements a RAG (Retrieval Augmented Generation) pipeline using LangChain, ChromaDB, and Ollama (Mistral 7B).
+
+## Tech Stack
+
+* **LLM:** Mistral 7B (via Ollama)
+* **Framework:** LangChain (Python)
+* **Vector Store:** ChromaDB (Local Persistence)
+* **Embeddings:** HuggingFace (`all-MiniLM-L6-v2`)
+* **Evaluation:** RAGAS metrics, ROUGE-L, BLEU, Cosine Similarity
+* 
 ## Phase 1:
 ## Features
 - **Local LLM:** Uses Mistral 7B via Ollama (Privacy-focused, runs offline).
@@ -28,4 +37,5 @@ We implemented a comprehensive evaluation framework to test 3 chunking strategie
 2. **Pull the Model:** ```bash
 
    ollama pull mistral
+
 
