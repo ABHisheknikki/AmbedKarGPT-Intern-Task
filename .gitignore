@@ -1,0 +1,10 @@
+# Ignore the huge model file
+*.gguf
+
+# Ignore virtual environment
+venv/
+myvenv/
+__pycache__/
+
+# Ignore local database
+chroma_db/
