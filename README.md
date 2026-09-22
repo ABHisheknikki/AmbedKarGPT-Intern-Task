@@ -1,4 +1,4 @@
-# AmbedkarGPT - RAG Q&A System
+# RAG Q&A System
 
 This is an assignment submission for the AI Intern role. It implements a RAG (Retrieval Augmented Generation) pipeline using LangChain, ChromaDB, and Ollama (Mistral 7B).
 
